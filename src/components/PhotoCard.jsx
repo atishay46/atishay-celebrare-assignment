@@ -1,17 +1,4 @@
 
-// PhotoCard.jsx — SINGLE PHOTO CARD COMPONENT (Part of Requirement #3 & #5)
-// =========================================================================
-// Each card shows:
-//   1. The photo image
-//   2. The author name
-//   3. A heart icon button to toggle favourite
-//
-// Props:
-//   - photo     : the photo object from the API (has id, author, download_url, etc.)
-//   - isFavourite: boolean — whether this photo is currently favourited
-//   - onToggle  : function — called when the heart button is clicked
-// =========================================================================
-
 function PhotoCard({ photo, isFavourite, onToggle }) {
   return (
     <div className="bg-gray-800/60 rounded-2xl overflow-hidden border border-gray-700/50 

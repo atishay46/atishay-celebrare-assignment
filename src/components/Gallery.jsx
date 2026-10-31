@@ -29,7 +29,7 @@ function Gallery() {
     setSearchQuery(e.target.value);
   }, []); 
 
-  // we would memoize this funcion so no multiple call will be made.
+  // memoize this funcion so no multiple call will be made.
   const filteredPhotos = useMemo(() => {
     if (!searchQuery.trim()) return photos;
 

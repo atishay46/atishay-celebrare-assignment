@@ -1,3 +1,4 @@
+export const TOGGLE_FAVOURITE = 'TOGGLE_FAVOURITE';
 export const SET_FAVOURITES = 'SET_FAVOURITES';
 
 export function favouritesReducer(state, action) {
