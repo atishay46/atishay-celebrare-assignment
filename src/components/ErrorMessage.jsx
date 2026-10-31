@@ -1,9 +1,4 @@
-// =========================================================================
-// ErrorMessage.jsx — ERROR DISPLAY COMPONENT (Part of Requirement #2)
-// =========================================================================
-// Shown when the API fetch fails (network error, server down, etc.).
-// Displays a friendly error message to the user.
-// =========================================================================
+ 
 
 function ErrorMessage({ message }) {
   return (
